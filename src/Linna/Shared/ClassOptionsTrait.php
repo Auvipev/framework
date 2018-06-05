@@ -11,6 +11,13 @@ declare(strict_types=1);
 
 namespace Linna\Shared;
 
+use const __CLASS__;
+
+use function array_diff_key;
+use function count;
+use function implode;
+use function array_keys;
+
 /**
  * Provide methods for manage options in a class.
  *
