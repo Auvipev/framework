@@ -15,6 +15,8 @@ use Linna\Storage\AbstractConnector;
 use Linna\Storage\ConnectorInterface;
 use mysqli;
 
+use function mysqli_report;
+
 /**
  * Mysql Improved Extension Connector.
  */
