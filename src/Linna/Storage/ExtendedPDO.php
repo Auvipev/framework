@@ -15,6 +15,12 @@ use PDO;
 use PDOStatement;
 use InvalidArgumentException;
 
+use const __METHOD__;
+
+use function call_user_func_array;
+use function strpos;
+use function count;
+
 /**
  * Extended PDO
  */
