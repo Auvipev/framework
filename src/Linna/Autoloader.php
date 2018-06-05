@@ -11,6 +11,19 @@ declare(strict_types=1);
 
 namespace Linna;
 
+use const DIRECTORY_SEPARATOR;
+
+use function spl_autoload_register;
+use function spl_autoload_unregister;
+use function trim;
+use function rtrim;
+use function explode;
+use function array_shift;
+use function implode;
+use function count;
+use function str_replace;
+use function file_exists;
+
 /**
  * PSR-4 Autoloader.
  *
